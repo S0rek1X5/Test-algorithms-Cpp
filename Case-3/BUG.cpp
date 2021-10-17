@@ -1,10 +1,9 @@
-/*Programa que pueda hacer suma,resta y multiplicacion de valores acumulados*/
 #include<iostream>
 #include<conio.h>
 using namespace std;
 int main(){
 	char letra;
-	int cont,i,n,numeros[n],suma=0,multiplicacion,hel;	/*hel variable que ayudara a completar la multiplicacion*/
+	int cont,i,n,numeros[100],suma=0,multiplicacion,hel;
 	cout<<"\tBienvenido"<<endl;
 	cout<<"Digite cuantos numeros utilizara: "<<endl;cin>>n;
 	i=0,cont=1,hel=1;
