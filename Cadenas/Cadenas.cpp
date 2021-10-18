@@ -9,9 +9,10 @@ int main(){
 	strcpy(texto2,texto);  //Funcion strCPY  =  Copiar texto a otro
 	strcat(texto,nombre);  //Funcion Para juntar cadenas 
 	tamanho=strlen(texto);  //Funcion strLEN  =  Determinar la cantidad de letras
-
-	/*
+	strupr(texto);			//Funcion strUPR  =  Transforma una cadena minuscula a MAYUSCULA
+	strlwr(nombre); 			//funcion strLWR  =  Tranforma una cadena de mayuscula a MINUSCULA
 	cout<<texto<<endl;
+	/*
 	if(strcmp(texto,nombre) == 0){     //Funcion strCMP  =  Hace comparaciones entre cadenas
 		cout<<"Ambos son iguales"<<endl;
 	}
